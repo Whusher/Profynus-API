@@ -1,0 +1,7 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+Profynus.Api/appsettings.Production.json
+Profynus.Api/appsettings.Development.json

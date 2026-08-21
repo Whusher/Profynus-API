@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Isopoh.Cryptography.Argon2" Version="2.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.26" />
+      <PackageReference Include="UAParser" Version="3.1.47" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Profynus.Domain\Profynus.Domain.csproj" />
+      <ProjectReference Include="..\Profynus.Infrastructure\Profynus.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
